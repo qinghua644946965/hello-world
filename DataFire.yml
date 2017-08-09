@@ -1,0 +1,6 @@
+actions:
+  hello_world: ./hello_world.js
+paths:
+  /greeting:
+    get:
+      action: hello_world
